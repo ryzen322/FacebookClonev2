@@ -42,7 +42,7 @@ const reaction = [
 
 const liked = [
   {
-    like: "./img/like/like.png",
+    like: "../img/like/like.png",
     paragraph: "like",
   },
   {
