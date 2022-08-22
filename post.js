@@ -169,9 +169,9 @@ postFeed.forEach((user) => {
     <div class="feed-reactions">
       <div class="feed-reactions--smile">
         <div class="feed-reactions-option">
-           <img src=".${like}" alt="" />
-          <img src=".${angry}" alt="" />
-          <img src=".${smile}" alt="" />
+           <img src="${like}" alt="" />
+          <img src="${angry}" alt="" />
+          <img src="${smile}" alt="" />
           <p>arteezy and 13k others</p>
         </div>
         <div class="feed-reactions-text">
