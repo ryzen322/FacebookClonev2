@@ -46,11 +46,11 @@ const liked = [
     paragraph: "like",
   },
   {
-    like: "./img/like/comment.png",
+    like: "../img/like/comment.png",
     paragraph: "comment",
   },
   {
-    like: "./img/like/share.png",
+    like: "../img/like/share.png",
     paragraph: "smile",
   },
 ];
