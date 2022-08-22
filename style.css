@@ -2469,6 +2469,9 @@ figure .figure-img {
 }
 
 @media only screen and (max-width: 480px) {
+  .navigation {
+    margin-left: 10rem;
+  }
   .navigation__nav {
     display: none;
   }
@@ -2481,6 +2484,10 @@ figure .figure-img {
   }
   main {
     width: 100%;
+  }
+
+  nav {
+    padding: 0;
   }
 
   nav .logo {
@@ -2508,4 +2515,11 @@ figure .figure-img {
     display: inline;
     margin-left: auto;
   }
+  .profile {
+    width: 90%;
+    background-color: #1694f1;
+    gap: 0.25rem;
+    padding-left: 0.25rem;
+  }
 }
+
