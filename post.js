@@ -42,15 +42,15 @@ const reaction = [
 
 const liked = [
   {
-    like: "../img/like/like.png",
+    like: "/img/like/like.png",
     paragraph: "like",
   },
   {
-    like: "../img/like/comment.png",
+    like: "/img/like/comment.png",
     paragraph: "comment",
   },
   {
-    like: "../img/like/share.png",
+    like: "/img/like/share.png",
     paragraph: "smile",
   },
 ];
@@ -169,9 +169,9 @@ postFeed.forEach((user) => {
     <div class="feed-reactions">
       <div class="feed-reactions--smile">
         <div class="feed-reactions-option">
-           <img src="${like}" alt="" />
-          <img src="${angry}" alt="" />
-          <img src="${smile}" alt="" />
+           <img src=".${like}" alt="" />
+          <img src=".${angry}" alt="" />
+          <img src=".${smile}" alt="" />
           <p>arteezy and 13k others</p>
         </div>
         <div class="feed-reactions-text">
@@ -182,15 +182,15 @@ postFeed.forEach((user) => {
 
       <div class="feed-actions">
       <div class="feed-action-like">
-      <img src="${reaction[0]}" alt="">
+      <img src=".${reaction[0]}" alt="">
       <p>${reactParagraph[0]}</p>
     </div>
     <div class="feed-action-like">
-    <img src="${reaction[1]}" alt="">
+    <img src=".${reaction[1]}" alt="">
     <p>${reactParagraph[1]}</p>
   </div>
   <div class="feed-action-like">
-  <img src="${reaction[2]}" alt="">
+  <img src=".${reaction[2]}" alt="">
   <p>${reactParagraph[2]}</p>
   </div>
         </div>
