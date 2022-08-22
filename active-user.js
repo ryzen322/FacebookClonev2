@@ -38,23 +38,23 @@ userActive.forEach((user) => {
 
 const groups = [
   {
-    img: "/img/vuejs.png",
+    img: "./img/vuejs.png",
     name: "Vue js Group",
   },
   {
-    img: "/img/nodejs.png",
+    img: "./img/nodejs.png",
     name: "Node js",
   },
   {
-    img: "img/reactjs.png",
+    img: "./img/reactjs.png",
     name: "React js",
   },
   {
-    img: "/img/angularjs.png",
+    img: "./img/angularjs.png",
     name: "Angular js",
   },
   {
-    img: "/img/bluecore.jpg",
+    img: "./img/bluecore.jpg",
     name: "Bluecore",
   },
 ];
