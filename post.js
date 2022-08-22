@@ -182,15 +182,15 @@ postFeed.forEach((user) => {
 
       <div class="feed-actions">
       <div class="feed-action-like">
-      <img src=".${reaction[0]}" alt="">
+      <img src="${reaction[0]}" alt="">
       <p>${reactParagraph[0]}</p>
     </div>
     <div class="feed-action-like">
-    <img src=".${reaction[1]}" alt="">
+    <img src="${reaction[1]}" alt="">
     <p>${reactParagraph[1]}</p>
   </div>
   <div class="feed-action-like">
-  <img src=".${reaction[2]}" alt="">
+  <img src="${reaction[2]}" alt="">
   <p>${reactParagraph[2]}</p>
   </div>
         </div>
