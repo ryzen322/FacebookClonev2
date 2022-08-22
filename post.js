@@ -57,7 +57,7 @@ const liked = [
 
 const postFeed = [
   {
-    profile: "/img/mina.jpg",
+    profile: "./img/mina.jpg",
     name: "Mina Gonzales",
     time: "20 ",
     private: "https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/0QOZ5Rw18zW.png",
@@ -75,7 +75,7 @@ const postFeed = [
     liked,
   },
   {
-    profile: "/img/mina.jpg",
+    profile: "./img/mina.jpg",
     name: "Mina Gonzales",
     time: "20 ",
     private: "https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/0QOZ5Rw18zW.png",
@@ -93,7 +93,7 @@ const postFeed = [
     liked,
   },
   {
-    profile: "/img/mina.jpg",
+    profile: "./img/mina.jpg",
     name: "Mina Gonzales",
     time: "20 ",
     private: "https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/0QOZ5Rw18zW.png",
