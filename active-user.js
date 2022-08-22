@@ -1,22 +1,22 @@
 const userActive = [
   {
-    img: "/img/chayoung.jpg",
+    img: "./img/chayoung.jpg",
     name: "Sana Namazaki",
   },
   {
-    img: "/img/jennie.jpg",
+    img: "./img/jennie.jpg",
     name: "Jennie Kim",
   },
   {
-    img: "/img/sana.jpg",
+    img: "./img/sana.jpg",
     name: "Sana Gonzales",
   },
   {
-    img: "/img/tsuyu.jpg",
+    img: "./img/tsuyu.jpg",
     name: "tsuyu ",
   },
   {
-    img: "/img/nayeon.jpg",
+    img: "./img/nayeon.jpg",
     name: "Nayeon Nayeon",
   },
 ];
@@ -76,13 +76,13 @@ groups.forEach((user) => {
 
 const friendRequest = [
   {
-    img: "/img/chayoung.jpg",
+    img: "./img/chayoung.jpg",
     name: "Sana Minasato",
     time: "4d",
     friends: "14",
   },
   {
-    img: "/img/nayeon.jpg",
+    img: "./img/nayeon.jpg",
     name: "Nayeon Nayeon",
     time: "9d",
     friends: "100",
